@@ -8,7 +8,7 @@
 
 #import "SimpleSpectrum_GraphView.h"
 
-#import "CABitOperations.h"
+//JOS: #import "CABitOperations.h"
 
 #define kDefaultMinHertz	11
 #define kDefaultMaxHertz	22050
