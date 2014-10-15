@@ -236,7 +236,8 @@ void dispatchAudioUnitEventProc(void * inUserData,
                                                   &sizeOfResult);
     
     if(result == noErr && graphInfo.mNumBins > 0) {
-        constexpr size_t mBins = graphInfo.mNumBins;
+        //JOS:        constexpr size_t mBins = graphInfo.mNumBins;
+        size_t mBins = graphInfo.mNumBins;
         sizeOfResult = graphInfo.mNumBins * sizeof(Float32);
         
         Float32 graphData[mBins];
