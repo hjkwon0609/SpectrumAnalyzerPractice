@@ -226,7 +226,7 @@
 		80A507D91847DD1000961665 /* vecLib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = vecLib.framework; sourceTree = "<group>"; };
 		80A507DC1847DD2B00961665 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AudioToolbox.framework; sourceTree = "<group>"; };
 		80A507DF1847DD3600961665 /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AudioUnit.framework; sourceTree = "<group>"; };
-		80A507E41847DDFE00961665 /* CAAtomic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAAtomic.h; sourceTree = "<group>"; };
+		80A507E41847DDFE00961665 /* CAAtomic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CAAtomic.h; path = /Users/markk/Developer/SpectrumAnalyzerPractice/CoreAudio/PublicUtility/CAAtomic.h; sourceTree = "<absolute>"; };
 		80A507E51847DDFE00961665 /* CAAtomicStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAAtomicStack.h; sourceTree = "<group>"; };
 		80A507E61847DDFE00961665 /* CAAudioChannelLayout.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CAAudioChannelLayout.cpp; sourceTree = "<group>"; };
 		80A507E71847DDFE00961665 /* CAAudioChannelLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAAudioChannelLayout.h; sourceTree = "<group>"; };
@@ -397,8 +397,8 @@
 				80A508081847DDFE00961665 /* CAXException.h */,
 			);
 			name = PublicUtility;
-			path = ../../moforte/AudioUnitExamples/AudioUnitExamples/PublicUtility;
-			sourceTree = "<group>";
+			path = /Users/markk/Developer/SpectrumAnalyzerPractice/CoreAudio/PublicUtility;
+			sourceTree = "<absolute>";
 		};
 		80A508531847DE5A00961665 /* AUPublic */ = {
 			isa = PBXGroup;
@@ -985,7 +985,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					/Users/jos/w/SimpleSpectrumAnalyzer,
+					/Users/markk/Developer/SpectrumAnalyzerPractice,
 				);
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -1017,6 +1017,7 @@
 					AppKit,
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				REZ_SEARCH_PATHS = /Users/markk/Developer/SpectrumAnalyzerPractice;
 				SDKROOT = macosx;
 				WRAPPER_EXTENSION = bundle;
 			};
@@ -1034,7 +1035,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					/Users/jos/w/SimpleSpectrumAnalyzer,
+					/Users/markk/Developer/SpectrumAnalyzerPractice,
 				);
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
@@ -1058,6 +1059,7 @@
 					AppKit,
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				REZ_SEARCH_PATHS = /Users/markk/Developer/SpectrumAnalyzerPractice;
 				SDKROOT = macosx;
 				WRAPPER_EXTENSION = bundle;
 			};
