@@ -167,6 +167,12 @@
 		80CCDF431848076600D030D3 /* AudioUnitProperties.h in Headers */ = {isa = PBXBuildFile; fileRef = 80CCDF411848076600D030D3 /* AudioUnitProperties.h */; };
 		80CCDF46184809C300D030D3 /* SimpleSpectrumAnalyzer.component in CopyFiles */ = {isa = PBXBuildFile; fileRef = B675E56C146B0DE00011284C /* SimpleSpectrumAnalyzer.component */; };
 		80CCDF4B18480B6B00D030D3 /* SpectrumCocoaView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B675E56B146B0DE00011284C /* SpectrumCocoaView.bundle */; };
+		80F7A4BB19F054B900B414EE /* CoreAudio in Resources */ = {isa = PBXBuildFile; fileRef = 80F7A4BA19F054B900B414EE /* CoreAudio */; };
+		80F7A4BC19F054B900B414EE /* CoreAudio in Resources */ = {isa = PBXBuildFile; fileRef = 80F7A4BA19F054B900B414EE /* CoreAudio */; };
+		80F7A4BF19F0557300B414EE /* CAAutoDisposer.h in Headers */ = {isa = PBXBuildFile; fileRef = 80F7A4BE19F0557300B414EE /* CAAutoDisposer.h */; };
+		80F7A4C019F055C200B414EE /* CAAutoDisposer.h in Headers */ = {isa = PBXBuildFile; fileRef = 80F7A4BE19F0557300B414EE /* CAAutoDisposer.h */; };
+		80F7A4C319F0563C00B414EE /* PublicUtility in Headers */ = {isa = PBXBuildFile; fileRef = 80F7A4C119F0561200B414EE /* PublicUtility */; };
+		80F7A4C519F056C200B414EE /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80F7A4C419F056C200B414EE /* CoreAudio.framework */; };
 		B63A96F214657837002D8A37 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63A96F114657837002D8A37 /* Cocoa.framework */; };
 		B63A970214657955002D8A37 /* SimpleSpectrum_ViewFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = B63A96E2146575AA002D8A37 /* SimpleSpectrum_ViewFactory.h */; };
 		B63A970314657955002D8A37 /* SimpleSpectrum_UIView.h in Headers */ = {isa = PBXBuildFile; fileRef = B63A96E614657605002D8A37 /* SimpleSpectrum_UIView.h */; };
@@ -226,7 +232,7 @@
 		80A507D91847DD1000961665 /* vecLib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = vecLib.framework; sourceTree = "<group>"; };
 		80A507DC1847DD2B00961665 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AudioToolbox.framework; sourceTree = "<group>"; };
 		80A507DF1847DD3600961665 /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AudioUnit.framework; sourceTree = "<group>"; };
-		80A507E41847DDFE00961665 /* CAAtomic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CAAtomic.h; path = /Users/markk/Developer/SpectrumAnalyzerPractice/CoreAudio/PublicUtility/CAAtomic.h; sourceTree = "<absolute>"; };
+		80A507E41847DDFE00961665 /* CAAtomic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CAAtomic.h; path = ./CoreAudio/PublicUtility/CAAtomic.h; sourceTree = "<absolute>"; };
 		80A507E51847DDFE00961665 /* CAAtomicStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAAtomicStack.h; sourceTree = "<group>"; };
 		80A507E61847DDFE00961665 /* CAAudioChannelLayout.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CAAudioChannelLayout.cpp; sourceTree = "<group>"; };
 		80A507E71847DDFE00961665 /* CAAudioChannelLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAAudioChannelLayout.h; sourceTree = "<group>"; };
@@ -301,6 +307,10 @@
 		80A5087B1847DE5A00961665 /* AUMIDIDefs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AUMIDIDefs.h; sourceTree = "<group>"; };
 		80A5087C1847DE5A00961665 /* AUSilentTimeout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AUSilentTimeout.h; sourceTree = "<group>"; };
 		80CCDF411848076600D030D3 /* AudioUnitProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AudioUnitProperties.h; path = ../AudioUnitProperties.h; sourceTree = "<group>"; };
+		80F7A4BA19F054B900B414EE /* CoreAudio */ = {isa = PBXFileReference; lastKnownFileType = folder; path = CoreAudio; sourceTree = "<group>"; };
+		80F7A4BE19F0557300B414EE /* CAAutoDisposer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CAAutoDisposer.h; path = Sources/CoreAudio/PublicUtility/CAAutoDisposer.h; sourceTree = "<group>"; };
+		80F7A4C119F0561200B414EE /* PublicUtility */ = {isa = PBXFileReference; lastKnownFileType = folder; name = PublicUtility; path = Sources/CoreAudio/PublicUtility; sourceTree = "<group>"; };
+		80F7A4C419F056C200B414EE /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
 		B63A96DD14657318002D8A37 /* SimpleSpectrum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SimpleSpectrum.h; sourceTree = "<group>"; };
 		B63A96DE14657324002D8A37 /* SimpleSpectrum.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SimpleSpectrum.cpp; sourceTree = "<group>"; };
 		B63A96DF14657343002D8A37 /* SimpleSpectrum.exp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.exports; path = SimpleSpectrum.exp; sourceTree = "<group>"; };
@@ -334,6 +344,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80F7A4C519F056C200B414EE /* CoreAudio.framework in Frameworks */,
 				B63A96F214657837002D8A37 /* Cocoa.framework in Frameworks */,
 				80A507D71847DCDC00961665 /* CoreServices.framework in Frameworks */,
 				80A507DD1847DD2B00961665 /* AudioToolbox.framework in Frameworks */,
@@ -397,7 +408,7 @@
 				80A508081847DDFE00961665 /* CAXException.h */,
 			);
 			name = PublicUtility;
-			path = /Users/markk/Developer/SpectrumAnalyzerPractice/CoreAudio/PublicUtility;
+			path = ./CoreAudio/PublicUtility;
 			sourceTree = "<absolute>";
 		};
 		80A508531847DE5A00961665 /* AUPublic */ = {
@@ -480,6 +491,9 @@
 		B63A969D14656852002D8A37 = {
 			isa = PBXGroup;
 			children = (
+				80F7A4C419F056C200B414EE /* CoreAudio.framework */,
+				80F7A4C119F0561200B414EE /* PublicUtility */,
+				80F7A4BE19F0557300B414EE /* CAAutoDisposer.h */,
 				B675E58F146B12CD0011284C /* Products */,
 				B63A974714657DFA002D8A37 /* Dependencies */,
 				B63A96A914656BD7002D8A37 /* Sources */,
@@ -490,6 +504,7 @@
 		B63A96A914656BD7002D8A37 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				80F7A4BA19F054B900B414EE /* CoreAudio */,
 				80A508531847DE5A00961665 /* AUPublic */,
 				80A507E31847DDFE00961665 /* PublicUtility */,
 				B63A96AA14656BD7002D8A37 /* SpectrumAU */,
@@ -586,6 +601,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80F7A4C319F0563C00B414EE /* PublicUtility in Headers */,
+				80F7A4C019F055C200B414EE /* CAAutoDisposer.h in Headers */,
 				80A5089D1847DE5A00961665 /* LockFreeFIFO.h in Headers */,
 				80A508C51847DE5A00961665 /* AUSilentTimeout.h in Headers */,
 				80A508871847DE5A00961665 /* AUInputElement.h in Headers */,
@@ -643,6 +660,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80F7A4BF19F0557300B414EE /* CAAutoDisposer.h in Headers */,
 				80A5081A1847DDFE00961665 /* CAAUMIDIMapManager.h in Headers */,
 				80CCDF431848076600D030D3 /* AudioUnitProperties.h in Headers */,
 				80A508841847DE5A00961665 /* AUDispatch.h in Headers */,
@@ -772,6 +790,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B63A975014658399002D8A37 /* InfoPlist.strings in Resources */,
+				80F7A4BB19F054B900B414EE /* CoreAudio in Resources */,
 				B6E7516214676DAB00287728 /* SpectrumView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -781,6 +800,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B63A974D14658362002D8A37 /* InfoPlist.strings in Resources */,
+				80F7A4BC19F054B900B414EE /* CoreAudio in Resources */,
 				80CCDF4B18480B6B00D030D3 /* SpectrumCocoaView.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -985,7 +1005,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					/Users/markk/Developer/SpectrumAnalyzerPractice,
+					.,
 				);
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -1017,8 +1037,9 @@
 					AppKit,
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				REZ_SEARCH_PATHS = /Users/markk/Developer/SpectrumAnalyzerPractice;
+				REZ_SEARCH_PATHS = .;
 				SDKROOT = macosx;
+				USER_HEADER_SEARCH_PATHS = "./**";
 				WRAPPER_EXTENSION = bundle;
 			};
 			name = Debug;
@@ -1035,7 +1056,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					/Users/markk/Developer/SpectrumAnalyzerPractice,
+					.,
 				);
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
@@ -1059,8 +1080,9 @@
 					AppKit,
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				REZ_SEARCH_PATHS = /Users/markk/Developer/SpectrumAnalyzerPractice;
+				REZ_SEARCH_PATHS = .;
 				SDKROOT = macosx;
+				USER_HEADER_SEARCH_PATHS = "./**";
 				WRAPPER_EXTENSION = bundle;
 			};
 			name = Release;
@@ -1077,7 +1099,7 @@
 				DEPLOYMENT_POSTPROCESSING = NO;
 				DSTROOT = "/tmp/$(PROJECT_NAME).dst";
 				EXPORTED_SYMBOLS_FILE = Sources/SpectrumAU/SimpleSpectrum.exp;
-				FRAMEWORK_SEARCH_PATHS = /Users/markk/Developer/SpectrumAnalyzerPractice;
+				FRAMEWORK_SEARCH_PATHS = .;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
@@ -1105,11 +1127,12 @@
 				OTHER_REZFLAGS = "-d i386_$i386 -I /System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Versions/A/Headers -I /Developer/Extras/CoreAudio/AudioUnits/AUPublic/AUBase";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REZ_SEARCH_PATHS = (
-					/Developer/Extras/CoreAudio/AudioUnits/AUPublic/AUBase,
 					/System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Versions/A/Headers,
+					"./Sources/CoreAudio/AudioUnits/AUPublic/AUBase/**",
 				);
 				SDKROOT = macosx;
 				SKIP_INSTALL = NO;
+				USER_HEADER_SEARCH_PATHS = "./**";
 				WRAPPER_EXTENSION = component;
 			};
 			name = Debug;
@@ -1127,7 +1150,7 @@
 				DEPLOYMENT_POSTPROCESSING = YES;
 				DSTROOT = /;
 				EXPORTED_SYMBOLS_FILE = Sources/SpectrumAU/SimpleSpectrum.exp;
-				FRAMEWORK_SEARCH_PATHS = /Users/markk/Developer/SpectrumAnalyzerPractice;
+				FRAMEWORK_SEARCH_PATHS = .;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_ENABLE_SSE3_EXTENSIONS = NO;
@@ -1147,10 +1170,11 @@
 				OTHER_REZFLAGS = "-d i386_$i386 -I /System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Versions/A/Headers -I /Developer/Extras/CoreAudio/AudioUnits/AUPublic/AUBase";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REZ_SEARCH_PATHS = (
-					/Developer/Extras/CoreAudio/AudioUnits/AUPublic/AUBase,
 					/System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Versions/A/Headers,
+					"./Sources/CoreAudio/AudioUnits/AUPublic/AUBase/**",
 				);
 				SDKROOT = macosx;
+				USER_HEADER_SEARCH_PATHS = "./**";
 				WRAPPER_EXTENSION = component;
 			};
 			name = Release;
