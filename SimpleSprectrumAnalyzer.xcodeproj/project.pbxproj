@@ -1077,10 +1077,7 @@
 				DEPLOYMENT_POSTPROCESSING = NO;
 				DSTROOT = "/tmp/$(PROJECT_NAME).dst";
 				EXPORTED_SYMBOLS_FILE = Sources/SpectrumAU/SimpleSpectrum.exp;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					/Users/jos/w/SimpleSpectrumAnalyzer,
-				);
+				FRAMEWORK_SEARCH_PATHS = /Users/markk/Developer/SpectrumAnalyzerPractice;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
@@ -1130,10 +1127,7 @@
 				DEPLOYMENT_POSTPROCESSING = YES;
 				DSTROOT = /;
 				EXPORTED_SYMBOLS_FILE = Sources/SpectrumAU/SimpleSpectrum.exp;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					/Users/jos/w/SimpleSpectrumAnalyzer,
-				);
+				FRAMEWORK_SEARCH_PATHS = /Users/markk/Developer/SpectrumAnalyzerPractice;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_ENABLE_SSE3_EXTENSIONS = NO;
