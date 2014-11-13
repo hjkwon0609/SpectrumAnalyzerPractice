@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		805E855F1A142EC30014FAA3 /* AudioUnitEffectExample in Resources */ = {isa = PBXBuildFile; fileRef = 805E855E1A142EC30014FAA3 /* AudioUnitEffectExample */; };
+		805E85601A142EC30014FAA3 /* AudioUnitEffectExample in Resources */ = {isa = PBXBuildFile; fileRef = 805E855E1A142EC30014FAA3 /* AudioUnitEffectExample */; };
 		8BA05AFC072074E100365D66 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BA05AF9072074E100365D66 /* AudioToolbox.framework */; };
 		8BA05AFD072074E100365D66 /* AudioUnit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BA05AFA072074E100365D66 /* AudioUnit.framework */; };
 		8BA05B02072074F900365D66 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BA05B01072074F900365D66 /* CoreServices.framework */; };
@@ -786,6 +788,7 @@
 /* Begin PBXFileReference section */
 		089C167EFE841241C02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		32BAE0B30371A71500C91783 /* FilterDemo_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FilterDemo_Prefix.pch; sourceTree = "<group>"; };
+		805E855E1A142EC30014FAA3 /* AudioUnitEffectExample */ = {isa = PBXFileReference; lastKnownFileType = folder; name = AudioUnitEffectExample; sourceTree = "<group>"; };
 		8BA05AF9072074E100365D66 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = /System/Library/Frameworks/AudioToolbox.framework; sourceTree = "<absolute>"; };
 		8BA05AFA072074E100365D66 /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = /System/Library/Frameworks/AudioUnit.framework; sourceTree = "<absolute>"; };
 		8BA05AFB072074E100365D66 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = /System/Library/Frameworks/CoreAudio.framework; sourceTree = "<absolute>"; };
@@ -1273,6 +1276,7 @@
 				8BA05A56072072A900365D66 /* AU Source */,
 				8BA4ADCB073EB14C00A2709A /* CocoaUI */,
 				32BAE0B30371A71500C91783 /* FilterDemo_Prefix.pch */,
+				805E855E1A142EC30014FAA3 /* AudioUnitEffectExample */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -2326,6 +2330,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ED1D5B5B1A13EC67008B8A5A /* SpectrumCocoaView-Info.plist in Resources */,
+				805E85601A142EC30014FAA3 /* AudioUnitEffectExample in Resources */,
 				ED1D5B5C1A13EC6B008B8A5A /* SpectrumView.xib in Resources */,
 				ED1D5B5D1A13EC75008B8A5A /* Info.plist in Resources */,
 			);
@@ -2337,6 +2342,7 @@
 			files = (
 				8D01CCCA0486CAD60068D4B7 /* InfoPlist.strings in Resources */,
 				ED1E32CF1A12D21600F44531 /* SpectrumAU-Info.plist in Resources */,
+				805E855F1A142EC30014FAA3 /* AudioUnitEffectExample in Resources */,
 				ED1E32D41A12D22900F44531 /* SpectrumCocoaView-Info.plist in Resources */,
 				ED1E32D61A12D22900F44531 /* SpectrumView.xib in Resources */,
 			);
