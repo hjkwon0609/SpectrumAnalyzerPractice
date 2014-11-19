@@ -10,19 +10,15 @@
 	<string>SimpleSprectrumAnalyzer</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>74DBDBB601614970D0D77AB78C16940A5F20CFFF</key>
-		<string>http://github.com/Sample-Hold/SimpleSpectrumAnalyzer</string>
 		<key>9EDDE8F61D697FD03786674D58A53B98A559DDFD</key>
 		<string>https://github.com/hjkwon0609/SpectrumAnalyzerPractice</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>SimpleSprectrumAnalyzer.xcodeproj</string>
+	<string>originalAnalyzer/SimpleSprectrumAnalyzer.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>74DBDBB601614970D0D77AB78C16940A5F20CFFF</key>
-		<string>../../../SimpleSpectrumAnalyzer</string>
 		<key>9EDDE8F61D697FD03786674D58A53B98A559DDFD</key>
-		<string>../..</string>
+		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/hjkwon0609/SpectrumAnalyzerPractice</string>
@@ -32,14 +28,6 @@
 	<string>9EDDE8F61D697FD03786674D58A53B98A559DDFD</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
-		<dict>
-			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
-			<string>public.vcs.git</string>
-			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>74DBDBB601614970D0D77AB78C16940A5F20CFFF</string>
-			<key>IDESourceControlWCCName</key>
-			<string>SimpleSpectrumAnalyzer</string>
-		</dict>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>

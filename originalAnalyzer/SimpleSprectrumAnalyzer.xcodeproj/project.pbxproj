@@ -193,6 +193,7 @@
 		B6E7516214676DAB00287728 /* SpectrumView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6E7516114676DAB00287728 /* SpectrumView.xib */; };
 		B6EAFCE11471CD7F008C6D73 /* SimpleSpectrumProcessor.h in Headers */ = {isa = PBXBuildFile; fileRef = B6EAFCE01471CD7F008C6D73 /* SimpleSpectrumProcessor.h */; };
 		B6EAFCE31471CD95008C6D73 /* SimpleSpectrumProcessor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B6EAFCE21471CD94008C6D73 /* SimpleSpectrumProcessor.cpp */; };
+		ED06E1771A1B143300225E1C /* SimpleSpectrum.exp in Sources */ = {isa = PBXBuildFile; fileRef = B63A96DF14657343002D8A37 /* SimpleSpectrum.exp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -885,6 +886,7 @@
 				B63A973A14657C55002D8A37 /* SimpleSpectrum.cpp in Sources */,
 				80A508961847DE5A00961665 /* ComponentBase.cpp in Sources */,
 				80A508281847DDFE00961665 /* CADebugMacros.cpp in Sources */,
+				ED06E1771A1B143300225E1C /* SimpleSpectrum.exp in Sources */,
 				80A5084A1847DDFE00961665 /* CAVectorUnit.cpp in Sources */,
 				80A5089A1847DE5A00961665 /* AUInstrumentBase.cpp in Sources */,
 				80A508321847DDFE00961665 /* CAGuard.cpp in Sources */,
