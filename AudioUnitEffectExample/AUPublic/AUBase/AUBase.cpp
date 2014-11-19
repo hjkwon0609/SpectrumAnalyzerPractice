@@ -1,7 +1,7 @@
 /*
      File: AUBase.cpp
  Abstract: AUBase.h
-  Version: 1.0
+  Version: 1.0.1
  
  Disclaimer: IMPORTANT:  This Apple software is supplied to you by Apple
  Inc. ("Apple") in consideration of your agreement to the following
@@ -41,14 +41,10 @@
  STRICT LIABILITY OR OTHERWISE, EVEN IF APPLE HAS BEEN ADVISED OF THE
  POSSIBILITY OF SUCH DAMAGE.
  
- Copyright (C) 2013 Apple Inc. All Rights Reserved.
+ Copyright (C) 2014 Apple Inc. All Rights Reserved.
  
 */
 #include "AUBase.h"
-
-//JOS added:
-#include "AudioUnitProperties.h"
-
 #include "AUDispatch.h"
 #include "AUInputElement.h"
 #include "AUOutputElement.h"
@@ -541,13 +537,13 @@ OSStatus			AUBase::DispatchGetPropertyInfo(AudioUnitPropertyID				inID,
 		outDataSize = sizeof(Float64);
 		outWritable = false;
 		break;
-	
-//JOS   case kAudioUnitProperty_NickName:
-//JOS        ca_require(inScope == kAudioUnitScope_Global, InvalidScope);
-//JOS        outDataSize = sizeof(CFStringRef);
-//JOS        outWritable = true;
-//JOS        break;
-
+/*
+    case kAudioUnitProperty_NickName:
+        ca_require(inScope == kAudioUnitScope_Global, InvalidScope);
+        outDataSize = sizeof(CFStringRef);
+        outWritable = true;
+        break;
+*/
 	default:
 		result = GetPropertyInfo(inID, inScope, inElement, outDataSize, outWritable);
 		validateElement = false;
@@ -792,13 +788,13 @@ OSStatus			AUBase::DispatchGetProperty(	AudioUnitPropertyID 			inID,
 	case 'lrst' : // kAudioUnitProperty_LastRenderedSampleTime
 		*(Float64*)outData = mCurrentRenderTime.mSampleTime;
 		break;
-
-//JOS    case kAudioUnitProperty_NickName:
+/*
+    case kAudioUnitProperty_NickName:
         // Ownership follows Core Foundation's 'Copy Rule'
-//JOS        if (mNickName) CFRetain(mNickName);
-//JOS        *(CFStringRef*)outData = mNickName;
-//JOS        break;
-            
+        if (mNickName) CFRetain(mNickName);
+        *(CFStringRef*)outData = mNickName;
+        break;
+  */
 	default:
 		result = GetProperty(inID, inScope, inElement, outData);
 		break;
@@ -1007,20 +1003,19 @@ OSStatus			AUBase::DispatchSetProperty(	AudioUnitPropertyID 			inID,
 		break;
 
 #endif // !CA_NO_AU_UI_FEATURES
-
-//JOS commented this out:
-//    case kAudioUnitProperty_NickName:
-//    {
-//		ca_require(inScope == kAudioUnitScope_Global, InvalidScope);
-//        ca_require(inDataSize == sizeof(CFStringRef), InvalidPropertyValue);
-//        CFStringRef inStr = *(CFStringRef *)inData;
-//        if (mNickName) CFRelease(mNickName);
-//        if (inStr) CFRetain(inStr);
-//        mNickName = inStr;
-//        PropertyChanged(inID, inScope, inElement);
-//        break;
-//    }
-//            
+/*
+    case kAudioUnitProperty_NickName:
+    {
+		ca_require(inScope == kAudioUnitScope_Global, InvalidScope);
+        ca_require(inDataSize == sizeof(CFStringRef), InvalidPropertyValue);
+        CFStringRef inStr = *(CFStringRef *)inData;
+        if (mNickName) CFRelease(mNickName);
+        if (inStr) CFRetain(inStr);
+        mNickName = inStr;
+        PropertyChanged(inID, inScope, inElement);
+        break;
+    }
+  */
 	default:
 		result = SetProperty(inID, inScope, inElement, inData, inDataSize);
 		if (result == noErr)
@@ -1095,20 +1090,19 @@ OSStatus			AUBase::DispatchRemovePropertyValue (AudioUnitPropertyID		inID,
 		break;
 	
 #endif // !CA_NO_AU_UI_FEATURES
-
-// JOS commented this out:
-//    case kAudioUnitProperty_NickName:
-//    {
-//        if(inScope == kAudioUnitScope_Global) {
-//            if (mNickName) CFRelease(mNickName);
-//            mNickName = NULL;
-//            PropertyChanged(inID, inScope, inElement);
-//        } else {
-//            result = kAudioUnitErr_InvalidScope;
-//        }
-//        break;
-//    }
-
+/*
+    case kAudioUnitProperty_NickName:
+    {
+        if(inScope == kAudioUnitScope_Global) {
+            if (mNickName) CFRelease(mNickName);
+            mNickName = NULL;
+            PropertyChanged(inID, inScope, inElement);
+        } else {
+            result = kAudioUnitErr_InvalidScope;
+        }
+        break;
+    }
+*/
 	default:
 		result = RemovePropertyValue (inID, inScope, inElement);		
 		break;

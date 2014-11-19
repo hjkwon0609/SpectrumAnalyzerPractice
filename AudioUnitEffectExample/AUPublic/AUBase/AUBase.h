@@ -1,7 +1,7 @@
 /*
      File: AUBase.h
  Abstract: Part of CoreAudio Utility Classes
-  Version: 1.0
+  Version: 1.0.1
  
  Disclaimer: IMPORTANT:  This Apple software is supplied to you by Apple
  Inc. ("Apple") in consideration of your agreement to the following
@@ -41,7 +41,7 @@
  STRICT LIABILITY OR OTHERWISE, EVEN IF APPLE HAS BEEN ADVISED OF THE
  POSSIBILITY OF SUCH DAMAGE.
  
- Copyright (C) 2013 Apple Inc. All Rights Reserved.
+ Copyright (C) 2014 Apple Inc. All Rights Reserved.
  
 */
 #ifndef __AUBase_h__
@@ -492,11 +492,11 @@ public:
 															
 	// ________________________________________________________________________
 
-#if !CA_USE_AUDIO_PLUGIN_ONLY
+ #if !CA_USE_AUDIO_PLUGIN_ONLY
 	/*! @method ComponentEntryDispatch */
 	static OSStatus			ComponentEntryDispatch(	ComponentParameters *			params,
 														AUBase *						This);
-#endif
+ #endif
 
 	// ________________________________________________________________________
 	// Methods useful for subclasses

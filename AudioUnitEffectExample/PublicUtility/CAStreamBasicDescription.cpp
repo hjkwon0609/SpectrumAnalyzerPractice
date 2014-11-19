@@ -1,7 +1,7 @@
 /*
      File: CAStreamBasicDescription.cpp
  Abstract: CAStreamBasicDescription.h
-  Version: 1.1
+  Version: 1.0.1
  
  Disclaimer: IMPORTANT:  This Apple software is supplied to you by Apple
  Inc. ("Apple") in consideration of your agreement to the following
@@ -200,7 +200,7 @@ char *CAStreamBasicDescription::AsString(char *buf, size_t _bufsize, bool brief 
 			bitdepth, endian, sign, floatInt, 
 			commaSpace, packed, align, deinter);
 		// buf += nc; if ((bufsize -= nc) <= 0) goto exit;
-	} else if (mFormatID == kAudioFormatAppleLossless) {
+	} else if (mFormatID == 'alac') {	//	kAudioFormatAppleLossless
 		int sourceBits = 0;
 		switch (mFormatFlags)
 		{
