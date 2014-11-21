@@ -337,7 +337,7 @@ public:
 #define	COMPONENT_REGISTER(Class,Type,Subtype,Manufacturer) \
 	static ComponentRegistrar<Class, Type, Subtype, Manufacturer>	gRegistrar##Class
 #else
-#define COMPONENT_ENTRY(Class)
+//JOS:#define COMPONENT_ENTRY(Class)
 #define COMPONENT_REGISTER(Class)
 // this macro is used to generate the Entry Point for a given Audio Plugin
 // you should be using this macro now with audio components

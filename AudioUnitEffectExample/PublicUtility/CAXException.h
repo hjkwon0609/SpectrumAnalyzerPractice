@@ -50,7 +50,7 @@
 #if !defined(__COREAUDIO_USE_FLAT_INCLUDES__)
 	#include <CoreFoundation/CoreFoundation.h>
 #else
-	#include <ConditionalMacros.h>
+//JOS:	#include <ConditionalMacros.h>
 	#include <CoreFoundation.h>
 #endif
 #include "CADebugMacros.h"
